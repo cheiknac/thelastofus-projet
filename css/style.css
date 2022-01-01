@@ -3,10 +3,110 @@
     padding: 0;
   }
 
+body {
+  display: flex;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Partie gauche */
+
 #left {
   width: 50%;
   height: 100vh;
-  background: url(../images/the-last-of-us-part-2.jpeg)no-repeat;
+  background: url(../images/the-last-of-us-part-2.jpg)no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#left img {
+  margin-top: 5%;
+  margin-left: 5%;
+
+}
+
+/* Partie droite */
+
+#right {
+  width: 50%;
+  height: 95vh;
+}
+
+/* Menu */
+
+#right ul li {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  list-style: none;
+}
+
+#right ul li a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul {
+  width: 70%;
+  margin-left: 30%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Contenue bloc de droite */
+
+#small-right {
+  width: 100%;
+  padding-top: 250px;;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#right p {
+padding: 0px 20px;
+}
+
+#right button {
+  width: 30%;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px 0px;
+  border-radius: 30px;;
+  background: #3E505E;
+  color: #fff;
+  border: 0px;
+  box-shadow: 2px 2px 2px rgb(49, 49, 49);
+}
+
+#right #plateform {
+  width: 70%;
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+footer p {
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
