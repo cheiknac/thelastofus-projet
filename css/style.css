@@ -45,6 +45,13 @@ body {
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
+}
+
+#right ul li a:hover {
+   color: #3E505E;
+   transition: 0,3s;
+   text-decoration: underline;
 }
 
 nav ul {
@@ -60,7 +67,7 @@ nav ul {
 
 #small-right {
   width: 100%;
-  padding-top: 250px;;
+  padding-top: 150px;;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -78,10 +85,10 @@ padding: 0px 20px;
 
 #right button {
   width: 30%;
-  font-size: 18px;
+  font-size: 1.2em;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
   padding: 15px 0px;
   border-radius: 30px;;
   background: #3E505E;
@@ -109,4 +116,59 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+
+
+/*........................ Page "creation profil ........................*/
+
+#firs-block-spec {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 30px;
+}  
+
+
+#firs-block {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#form-block {
+  width: 50%;
+}
+
+#form-block-spec {
+  width: 50%;
+}
+
+#firs-block input  {
+  width: 80%;
+  height: 40px;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-size: 1em;
+  margin-top: 5px;
+  border: 0px;
+  background: rgb(227 227 227);
+}
+
+form #validerprofil {
+  width: 30%;
+  padding-top: 30px;
+  font-size: 1.2em;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 10px 0px;
+  border-radius: 30px;;
+  background: #3E505E;
+  color: #fff;
+  border: 0px;
+  box-shadow: 2px 2px 2px rgb(49, 49, 49);
 }
